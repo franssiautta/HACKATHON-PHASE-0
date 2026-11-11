@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Legend Deck</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Start semantik elements -->
+    <!-- header -->
+    <header class="header">
+        <h1>Mobile Legend Deck List</h1>
+        <p>List Favorite Mobile Legend</p>
+
+
+    </header>
+    <!-- end header -->
+
+    <!-- main -->
+    <main class="container">
+        <section class="toolbar">
+            <input id="Search" type="text" placeholder="Cari nama hero" />
+            <div class="filters">
+                <button class="filter-btn active" data-element="All">All</button>
+                <button class="filter-btn" data-element="Tank">Tank</button>
+                <button class="filter-btn" data-element="Fighter">Fighter</button>
+                <button class="filter-btn" data-element="Assassin">Assassin</button>
+                <button class="filter-btn" data-element="Mage">Mage</button>
+                <button class="filter-btn" data-element="Marksman">Marksman</button>
+                <button class="filter-btn" data-element="Support">Support</button>
+            </div>
+            
+        </section>
+
+        <!-- Hero Collection -->
+        <section class="hero-section">
+            <h2>Hero Collection</h2>
+
+            <div id="hero-list" class="hero-list">
+                <!-- Kartu Hero dibuat Melalui JavaScript -->
+
+            </div>
+        </section>
+
+        <!-- Detai Hero -->
+        <section id="hero-detail" class="hero-detail">
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Mobile Legend Deck List</p>
+    </footer>
+
+
+    <!-- end main -->
+    <!-- End semantik elements -->
+    <!-- JavaScript -->
+    <script src="heroes.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
