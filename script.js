@@ -42,8 +42,15 @@ function showHeroes(list) {
         const nickname = document.createElement('p')
         nickname.textContent = hero.nickname
 
-        const roles = document.createElement('p')
-        roles.textContent = hero.role.join(', ')
+        const roles = document.createElement('div')
+        roles.classList.add('hero-card-roles')
+
+        hero.role.forEach(function(heroRole) {
+            const role = document.createElement('span')
+            role.classList.add('hero-card-role')
+            role.textContent = heroRole
+            roles.appendChild(role)
+        })
 
         description.append(name, nickname, roles)
         card.appendChild(description)
