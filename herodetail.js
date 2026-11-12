@@ -83,7 +83,7 @@ function renderDetail() {
     const name = document.createElement('h2')
     name.textContent = hero.name
     // console.log(name);
-
+    
     const nickname = document.createElement('p')
     nickname.classList.add('hero-nickname')
     nickname.textContent = hero.nickname

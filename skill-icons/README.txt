@@ -1,3 +1,0 @@
-Mobile Legends: Bang Bang MAIN skill icons only. Passive, Basic Attack, and morphed/alternate-form skill variants are excluded. Each hero has its own folder. Files are named by skill slot (skill1-Hero.png, skill2-Hero.png, skill3-Hero.png, ultimate-Hero.png). Beatrix keeps all four selectable weapon ultimates because these are standard weapon-based skills, not morph skills.
-Source: Liquipedia Mobile Legends: Bang Bang Wiki. Image artwork is credited to its respective owners; in-game materials are Moonton Games material.
-See https://liquipedia.net/commons/Liquipedia:Copyrights and https://liquipedia.net/api-terms-of-use for attribution and usage information.
