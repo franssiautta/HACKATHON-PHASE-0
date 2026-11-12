@@ -23,6 +23,11 @@ function showHeroes(list) {
         const card = document.createElement('div')
         card.classList.add('hero-card')
 
+        card.addEventListener('click', function () {
+            window.location.href =
+                `herodetail.html?name=${encodeURIComponent(hero.name)}`
+        })
+
         const image = document.createElement('img')
         image.src = hero.image
         image.alt = hero.name
@@ -99,6 +104,8 @@ filterButtons.forEach(function (button) {
 searchInput.addEventListener('input', function () {
     filterAndRender()
 })
+
+
 
 
 showHeroes(heroes)
