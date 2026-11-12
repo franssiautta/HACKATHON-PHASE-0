@@ -367,6 +367,7 @@ div.hero-desc p {
     }
 }
 
+/* <<<<<<< HEAD */
 @media (max-width: 800px) {
     .detail-card {
         grid-template-columns: minmax(0, 1fr);
@@ -377,5 +378,100 @@ div.hero-desc p {
         width: 100%;
         max-width: 420px;
         margin: 0 auto;
+    }
+}
+/* ======= */
+
+.hero-detail {
+    display: none;
+    flex-direction: column;
+    background: linear-gradient(135deg, #111c30, #263c60);
+    border: 2px solid goldenrod;
+    border-radius: 12px;
+    padding: 30px;
+    margin: 20px;
+    min-height: 400px;
+}
+
+/* Gambar dan informasi */
+.detail-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+/* gambar hero di kiri*/
+.detail-info img {
+    width: 250px;
+    height: 350px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+/* bagian kanan gambar */
+.detail-content {
+    flex: 1;
+}
+
+/* nama dan nickname sejajar */
+.detail-header {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: flex-start;
+}
+
+/* lore dibawah nama */
+.hero-lore {
+    margin-top: 35;
+}
+
+.hero-name h2 .hero-nickname h2 .hero-lore h2 {
+    color: goldenrod;
+}
+
+/* tombol back */
+.back-btn {
+    align-self: flex-end;
+    margin-top: auto;
+    padding: 12px 30px;
+    background: goldenrod;
+    color: #080e1c;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* tampilan mobile */
+@media (max-width: 600px) {
+    .detail-info {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .detail-header {
+        gap: 20px;
+        flex-wrap: wrap;
+
+    }
+
+    .detail-info img {
+        width: 180px;
+        height: 250px;
+/* >>>>>>> origin/main */
     }
 }
