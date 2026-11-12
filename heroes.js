@@ -1,6 +1,6 @@
 const heroes = [
-    {
-        name: 'Aamon',
+    { 
+        name: 'Aamon', 
         nickname: 'Duke of Shards',
         role: ['Assassin'],
         image: 'images/Aamon.png',

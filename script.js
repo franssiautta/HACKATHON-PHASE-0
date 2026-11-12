@@ -50,7 +50,7 @@ function showHeroes(list) {
         heroList.appendChild(card)
     });
 
-
+ 
 
     //      <div class="hero-card"><img src="images/Aamon.png" alt="Aamon">
     //          <div class="hero-desc">
